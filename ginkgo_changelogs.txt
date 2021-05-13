@@ -1,9 +1,65 @@
 PixelOS 
-by whyredFire and SarisanSe
+by whyredFire and Ashwin
 ----------------
-Changelog
+Changelog (13/05/2021)
 ----------------
-Device
+
+> Device Changes
+- Updated stock blobs from MIUI 21.4.28
+- Fixed random reboots in suspend and 4g usage
+- Fixed google play system updates
+- Imported camera blobs from Pie for much better camera performance
+- Improved app launches and i/o
+- Updated Pixel 5 fingerprint to May
+- Dropped Vibration strength controls
+- Fixed offline charging animation
+- Added fingerprint shutter in MiuiCamera
+- Fixed 5ghz wifi on android 11 firmware
+- Improved 5ghz wifi signal tolerance
+- Improved and fine tuned auto brightness algorithm
+- Fixed KCAL not applying on first boot
+- Reduced min cpu freq and boosts for battery improvement
+- Tuned cpusets and scheduler for better performance
+- Added missing ANT+ hal, few rootdir tweaks
+- Fixes "Device is too hot" issue in apps Like Gphotos
+- Fixed HWC crash on boot
+- Updated/Added missed wifi configs
+- Updated WifiOverlay from LA.UM.9.1.r1-09100-SMxxx0.0
+- Updated GPS configs to LA.UM.9.11.r1-03200-NICOBAR.0
+- Performance improvements and misc. fixes
+
+> Kernel Changes
+- Upstreamed to v4.14.232
+- Merged LA.UM.9.11.r1-03900-NICOBAR.0 CAF tag
+- Improved scheduler performance and stability
+- Fixed deep sleep issues and random reboots
+- Switch few drivers to async probe (faster bootup)
+- Thermal drivers updates from 4.19
+- Disabled PAN emulation for improved performance
+- Disabled unused erratum fixes
+- Updated speaker amp driver from ginkgo-q-oss
+- Disabled schedtune util boost
+- Disabled some unwanted debugging
+- Enabled monitor mode for wifi
+- TCP ipv4/ipv6 optimizations
+- Improved memory management and f2fs
+- Improved performance in games that use Unity Engine
+- Added a lower efficient CPU frequency to save power
+- Misc optimizations and fixes
+
+> Source Changes
+- May Security Patch
+- Black background in power menu
+- Fixed OTA Updater
+- Updated translations
+- Optimized offline charging animation
+- Performance and stability improvements
+
+----------------
+Changelog (11/03/2021)
+----------------
+
+> Device
 - Added Blur toggle in dev settings
 - Switched to qcom power hal and perf hal boosting
 - Update redfin fp to March
@@ -32,7 +88,7 @@ Device
 - Reduced minimum brighness 
 - Misc optimizations and fixes
 
-Source 
+> Source 
 - OTA Updates  
 - March Security Patch
 - Add blur in power menu
